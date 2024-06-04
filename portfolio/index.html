@@ -3,10 +3,83 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>homepage</title>
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        
+        <div id="navbar-top">
+            <img 
+                id="logo"
+                src="images/as_logo.png"
+                width="60px"
+            >
+        </div>
+        <div id="navbar">
+            <div class="dropdown-container">
+                <a href="#">GALLERY</a>
+                <div class="dropdown-menu">
+                    <a href="graphics.html">Graphics</a>
+                    <a href="animation.html">Animation</a>
+                    <a href="photography.html">Photography</a>
+                </div>
+            </div>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+        </div>
+        <div id="card1" class="card">
+            <h2>Kamusta</h2>
+            <div class="card-content">
+                <p>
+                    My name is Aaron. Welcome to my portfolio!
+                </p>
+                <img 
+                    src="images/loop.gif"
+                    width="200px"
+                >
+                <p>
+                    Click here to learn more about me if you want
+                </p>
+                <a href="#">About Me</a>
+            </div>
+        </div>
+        <div id="audio">
+            <p>Heres some music to listen to if you get bored</p>
+            <audio controls autoplay>
+                <source src="audio/Song1.mp3" type="audio/mpeg">
+            </audio>
+            <p id="volume">Volume Warning</p>
+        </div>
+        <div id="centered-column">
+            <div class="cards">
+                <img 
+                src="#" 
+                alt="Gallery"
+                >
+                <p> 
+                    Check out some of my previous and most recent artwork!
+                </p>
+                <a href="#">Gallery</a>
+            </div>
+            <div class="cards">
+                <img 
+                src="#" 
+                alt="Contact"
+                >
+                <p> 
+                    Want to contact me? Heres my info!
+                </p>
+                <a href="#">Contact Info</a>
+            </div>
+            <div class="cards">
+                <img 
+                src="#" 
+                alt="Message"
+                >
+                <p> 
+                    Feel free to leave me a message here!
+                </p>
+                <a href="#">Message Form</a>
+            </div>
+        </div>
     </body>
 </html>
