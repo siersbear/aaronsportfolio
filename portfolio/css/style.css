@@ -177,3 +177,12 @@ body {
     color: #ffdd6e;
     transform: translateY(-4px);
 }
+
+/********************
+ANIMATION
+********************/
+#animationheader {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
