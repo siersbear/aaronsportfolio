@@ -214,6 +214,7 @@ GALLERY
 #header h1 {
     font-size: 100px;
     padding: 0px;
+    color: #f56a59;
 }
 #animation {
     justify-content: center;
@@ -230,15 +231,18 @@ GALLERY
     font-size: 50px;
 }
 #categories a{
+    background-color: none;
     padding: 30px;
     text-decoration: none;
     color: #388df9;
     transition:
-        color .5s
+        color .5s,
+        background-color .5s
     ;
 }
 #categories a:hover{
-    color: #f56a59;
+    color: #ffdd6e;
+    background-color: #388df9
 }
 /********************
 ABOUT ME
@@ -348,6 +352,10 @@ ANIMATION
 }
 #catanimations img{
     width: 25vw;
+}
+#nekos {
+    width: 100vw;
+    padding: 0px;
 }
 /********************
 MESSAGE FORM
