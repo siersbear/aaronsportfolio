@@ -6,6 +6,10 @@ body {
     font-family: serif;
     background-color: #ffdd6e;
 }
+/*HR*/
+hr {
+    border-top: 4px dotted #f56a59;
+  }
 /*NAVBAR*/
 #logo {
     padding-top: 10px;
@@ -15,6 +19,14 @@ body {
     justify-content: center;
     text-align: center;
     background-color: #388df9;
+}
+#logo {
+    transition:
+        transform .3s
+    ;
+}
+#logo:hover {
+    transform: translateY(-3px);
 }
 #navbar {
     background: linear-gradient(
@@ -31,13 +43,6 @@ body {
     padding: 24px;
     text-decoration: none;
     color: #ffdd6e;
-}
-#navbar #logo {
-    margin-right: auto;
-    font-size: 30px;
-    font-weight: bold;
-    padding-top: 16px;
-    padding-bottom: 16px;
 }
 #navbar a:hover {
     background: linear-gradient(
@@ -87,6 +92,7 @@ body {
     text-decoration: none;
     color:black;
     display: block;
+    background-color: #ffdd6e;
     border: 3px solid #f56a59;
     padding: 12px;
     margin-top: 36px;
@@ -108,18 +114,35 @@ body {
     ;
 }
 #card1:hover {
-    background-color:#83b9ff;
+    color: #ffdd6e;
+    background-color: #388df9;
     box-shadow: 5px 5px 5px rgba(239, 125, 125, 0.382);
     transform: translateY(-4px);
+}
+#bottomtext {
+    text-align: center;
 }
 /*AUDIO*/
 #audio {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 #volume {
     font-size: 12px;
+    padding: 10px;
+}
+#warning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#audio img {
+    width: 15vw;
 }
 /*CARDS*/
 #centered-column {
@@ -146,7 +169,7 @@ body {
 .cards img{
     width: 100%;
     height: 150px;
-    object-fit: cover;
+    object-fit: contain;
 }
 .cards p{
     font-size: 18px;
@@ -179,9 +202,187 @@ body {
 }
 
 /********************
+GALLERY
+********************/
+#header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#header h1 {
+    font-size: 100px;
+    padding: 0px;
+}
+#animation {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    object-fit: cover;
+    width: 100vw;
+    height: 30vh;
+}
+#categories {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 50px;
+}
+#categories a{
+    padding: 30px;
+    text-decoration: none;
+    color: #388df9;
+    transition:
+        color .5s
+    ;
+}
+#categories a:hover{
+    color: #f56a59;
+}
+/********************
+ABOUT ME
+********************/
+#description h1 {
+    color: #388df9;
+}
+#about {
+    display: flex;
+    background-color: white;
+    border: 2px solid #f56a59;
+    margin: 30px;
+    padding: 30px;
+}
+#description {
+    justify-content: center;
+    text-align: left;
+}
+#title {
+    display: flex;
+    align-items: baseline;
+}
+#title i{
+    font-size: 5vw;
+    padding-left: 10px;
+    color: #f56a59;
+}
+/********************
+CONTACT
+********************/
+#contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact {
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    color: #388df9;
+}
+.email {
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+}
+.instagram {
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+}
+.linkedin {
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+}
+.email i{
+    padding: 10px;
+    font-size: 70px;
+    color: #f56a59;
+    transition: 
+        color .5s
+    ;
+}
+.instagram i{
+    padding: 10px;
+    font-size: 70px;
+    color: #f56a59;
+    transition: 
+    color .5s
+;
+}
+.linkedin i{
+    padding: 10px;
+    font-size: 70px;
+    color: #f56a59;
+    transition: 
+    color .5s
+;
+}
+.email i:hover{
+    color: #388df9
+}
+.linkedin i:hover{
+    color: #388df9
+}
+.instagram i:hover{
+    color: #388df9
+}
+#pbimg {
+    width: 40vw;
+}
+/********************
 ANIMATION
 ********************/
-#animationheader {
+#animations-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#catanimations {
+    display: flex;
+}
+#catanimations img{
+    width: 25vw;
+}
+/********************
+MESSAGE FORM
+********************/
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+input[type=submit] {
+    background-color: #388df9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 
+        background-color .5s,
+        color .5s
+    ;
+}
+input[type=submit]:hover {
+    background-color: #ffdd6e;
+    color: #388df9;
+}
+.msg-container {
+    border-radius: 5px;
+    background-color: #f56a59;
+    padding: 20px;
+    margin: 40px 455px;
     justify-content: center;
     align-items: center;
     text-align: center;

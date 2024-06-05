@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>homepage</title>
         <link href="css/style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/4189cca588.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="https://shorturl.at/PKdFx">
     </head>
     <body>
         <div id="navbar-top">
@@ -18,18 +20,21 @@
         </div>
         <div id="navbar">
             <div class="dropdown-container">
-                <a href="#">GALLERY</a>
+                <a href="gallery.html">
+                    GALLERY
+                    <i class="fa-solid fa-sort-down"></i>
+                </a>
                 <div class="dropdown-menu">
                     <a href="graphics.html">Graphics</a>
                     <a href="animation.html">Animation</a>
                     <a href="photography.html">Photography</a>
                 </div>
             </div>
-            <a href="#">ABOUT</a>
-            <a href="#">CONTACT</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
         </div>
         <div id="card1" class="card">
-            <h2>Kamusta</h2>
+            <h2>Kumusta</h2>
             <div class="card-content">
                 <p>
                     My name is Aaron. Welcome to my portfolio!
@@ -41,47 +46,53 @@
                 <p>
                     Click here to learn more about me if you want
                 </p>
-                <a href="#">About Me</a>
+                <a href="about.html">About Me</a>
             </div>
         </div>
         <div id="audio">
             <p>Heres some music to listen to if you get bored</p>
+            <img src="images/dance.gif">
             <audio controls autoplay>
                 <source src="audio/Song1.mp3" type="audio/mpeg">
             </audio>
-            <p id="volume">Volume Warning</p>
+            <div id="warning">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <p id="volume">Volume Warning</p>
+                <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
         </div>
         <div id="centered-column">
             <div class="cards">
                 <img 
-                src="#" 
+                src="images/gallery.png" 
                 alt="Gallery"
                 >
                 <p> 
                     Check out some of my previous and most recent artwork!
                 </p>
-                <a href="#">Gallery</a>
+                <a href="gallery.html">Gallery</a>
             </div>
             <div class="cards">
                 <img 
-                src="#" 
+                src="images/contact.png" 
                 alt="Contact"
                 >
                 <p> 
                     Want to contact me? Heres my info!
                 </p>
-                <a href="#">Contact Info</a>
+                <a href="contact.html">Contact Info</a>
             </div>
             <div class="cards">
                 <img 
-                src="#" 
+                src="images/message.png" 
                 alt="Message"
                 >
                 <p> 
                     Feel free to leave me a message here!
                 </p>
-                <a href="#">Message Form</a>
+                <a href="message.html">Message Form</a>
             </div>
         </div>
+        <p id="bottomtext"> © 2024 Aaron Siers</p>
     </body>
 </html>
