@@ -6,6 +6,10 @@ body {
     font-family: serif;
     background-color: #ffdd6e;
 }
+/*SPACER*/
+#spacer {
+    padding: 30px 0px;
+}
 /*HR*/
 hr {
     border-top: 4px dotted #f56a59;
@@ -13,6 +17,12 @@ hr {
 /*BEAR BORDER*/
 #bearhead {
     width: 60vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+#bearhr {
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -27,7 +37,7 @@ hr {
     background-color: #388df9;
     color: #ffdd6e;
     border-radius: 50px;
-    margin: 0px 780px;
+    margin: 40px 780px;
     transition:
         background-color .5s 
     ;
@@ -208,6 +218,9 @@ marquee {
 #audio2 img {
     width: 15vw;
 }
+#audio3 {
+    display: none;
+}
 /*CARDS*/
 #centered-column {
     width: 90vw;
@@ -323,6 +336,10 @@ ABOUT ME
     justify-content: center;
     align-items: center;
 }
+#aboutcontainer {
+    justify-content: center;
+    align-items: center;
+}
 #title {
     display: flex;
     align-items: baseline;
@@ -336,12 +353,11 @@ ABOUT ME
     display: flex;
     justify-content: space-between;
 }
-#biotxt {
-    padding-left : 50px;
-    padding-right: 250px;
-}
 #me {
     width: 30vw;
+}
+#beartune {
+    width: 10vw;
 }
 /********************
 CONTACT
@@ -419,6 +435,7 @@ ANIMATION
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 20px;
 }
 #catanimations {
     display: flex;
@@ -431,7 +448,7 @@ ANIMATION
     padding: 0px;
 }
 #cats {
-    width: 60vw;
+    width: 30vw;
 }
 /********************
 MESSAGE FORM
