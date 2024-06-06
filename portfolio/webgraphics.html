@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>animation</title>
+        <link href="css/style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/4189cca588.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="https://shorturl.at/PKdFx">
+    </head>
+    <body>
+        <div id="navbar-top">
+            <a href="index.html">
+                <img 
+                    id="logo"
+                    src="images/as_logo.png"
+                    width="60px"
+                >
+            </a>
+        </div>
+        <div id="navbar">
+            <div class="dropdown-container">
+                <a href="gallery.html">
+                    GALLERY
+                    <i class="fa-solid fa-sort-down"></i>
+                </a>
+                <div class="dropdown-menu">
+                    <a href="graphics.html">Graphics</a>
+                    <a href="animation.html">Animation</a>
+                    <a href="photography.html">Photography</a>
+                </div>
+            </div>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+        <div id="webgraphics-container">
+            <img id="bearhead" src="images/bearhead.png">
+            <h2>WEBSITE GRAPHICS</h2>
+            <div id="webimgs">
+                <img src="images/beartune.gif">
+                <img src="images/dance.gif">
+                <img src="images/loop.gif">
+            </div>
+        </div>
+        <div id="audio3">
+            <audio controls autoplay loop id="lowaudio">
+                <source src="audio/Song4.mp3" type="audio/mpeg">
+            </audio>
+            <script>
+                var audio = document.getElementById("lowaudio");
+                audio.volume = 0.1;
+            </script>
+        </div>
+        <hr>
+        <p id="bottomtext"> © 2024 Aaron Siers</p>
+    </body>
+</html>

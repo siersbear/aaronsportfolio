@@ -26,8 +26,8 @@
                 </a>
                 <div class="dropdown-menu">
                     <a href="graphics.html">Graphics</a>
-                    <a href="animation.html">Animation</a>
                     <a href="photography.html">Photography</a>
+                    <a href="webgraphics.html">Website Graphics</a>
                 </div>
             </div>
             <a href="about.html">ABOUT</a>
@@ -61,7 +61,19 @@
             </div>
             <img id="bearhead" src="images/bearhead.png">
             <h2>Doodles</h2>
-            <img id="cats" src="images/catlovers.gif">
+            <div id="doodles">
+                <img id="cats" src="images/catlovers.gif">
+                <img id="spin" src="images/ok.gif">
+            </div>
+        </div>
+        <div id="audio3">
+            <audio controls autoplay loop id="lowaudio">
+                <source src="audio/Song6.mp3" type="audio/mpeg">
+            </audio>
+            <script>
+                var audio = document.getElementById("lowaudio");
+                audio.volume = 0.1;
+            </script>
         </div>
         <hr>
         <p id="bottomtext"> © 2024 Aaron Siers</p>

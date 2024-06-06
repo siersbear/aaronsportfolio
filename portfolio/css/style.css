@@ -352,13 +352,26 @@ ABOUT ME
 #bio {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+#biotxt a {
+    text-decoration: none;
+    color: black;
+    transition: 
+        color .2s
+    ;
+}
+#biotxt a:hover {
+    color: #f56a59;
 }
 #me {
-    width: 30vw;
+    width: 40vw;
 }
 #beartune {
     width: 10vw;
 }
+
 /********************
 CONTACT
 ********************/
@@ -450,6 +463,12 @@ ANIMATION
 #cats {
     width: 30vw;
 }
+#spin {
+    width: 20vw;
+}
+#doodles {
+    display: flex;
+}
 /********************
 MESSAGE FORM
 ********************/
@@ -536,4 +555,30 @@ CLASSWORK - GRAPHICS
 }
 .photograph {
     width: 40vw;
+}
+/********************
+WEBSITE - GRAPHICS
+********************/
+#webgraphics-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#webimgs img {
+    width: 25vw;
+}
+
+
+
+/********************
+TABLET QUERY
+********************/
+@media screen and (max-width: 768px) and (min-width: 481px) {
+}
+
+/********************
+PHONE QUERY
+********************/
+@media screen and (max-width: 480px) {
 }
