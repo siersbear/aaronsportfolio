@@ -9,7 +9,11 @@ body {
 /*HR*/
 hr {
     border-top: 4px dotted #f56a59;
-  }
+}
+/*MARQUEE*/
+marquee {
+    color: #f56a59;
+}
 /*NAVBAR*/
 #logo {
     padding-top: 10px;
@@ -363,16 +367,20 @@ MESSAGE FORM
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
-    border: 1px solid #ccc; 
+    border: 1px solid #388df9;
+    color: #388df9;
     border-radius: 4px; 
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical 
 }
+label {
+    font-weight: bolder;
+}
 input[type=submit] {
     background-color: #388df9;
-    color: white;
+    color: #ffdd6e;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
