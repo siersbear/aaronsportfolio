@@ -34,37 +34,77 @@
             <a href="contact.html">CONTACT</a>
         </div>
         <div id="about">
-            <div id="description">
-                <div id="title">
-                    <h1>
-                        ABOUT ME
-                    </h1>
-                    <i class="fa-regular fa-star"></i>
+            <div id="aboutcontainer">
+                <div id="description">
+                    <div id="bio">
+                        <div id="biotxt">
+                            <div id="title">
+                                <h1>
+                                    ABOUT ME
+                                </h1>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>
+                                My name is Aaron Siers. I'm a filipino trans man 
+                                and a freelance graphic designer/artist. 
+                                I turned 20 this year.
+                            </p>
+                            <p>
+                                I've been drawing since I was young, and as I 
+                                grew up I wanted to improve and make art that 
+                                could impress people.
+                            </p>
+                            <p>
+                                I hope to further work on my art and find a 
+                                style i can stick with, so I can continue to 
+                                create artwork that accurately represents me.
+                            </p>
+                            <p>
+                                My biggest inspirations include:
+                            </p>
+                            <ul>
+                                <li>Hakushi Hasegawa</li>
+                                <li>Liz Lehman</li>
+                                <li>Sawako Kageyama</li>
+                                <li>Eddy Atoms</li>
+                                <li>Ala Flora</li>
+                                <li>Serani Poji</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img id="me" src="images/me.gif">
+                        </div>
+                    </div>
                 </div>
-                <p>
-                    My name is Aaron Siers. I'm a filipino trans man and a freelance 
-                    graphic designer/artist. I turned 20 this year.
-                </p>
-                <p>
-                    I've been drawing since I was young, and as I grew up 
-                    I wanted to improve and make art that could impress people.
-                </p>
-                <p>
-                    I hope to further improve my art and find a style i can 
-                    stick with, so I can continue to create artwork that
-                    accurately represents me.
-                </p>
-                <p>
-                    My biggest inspirations include
-                </p>
-                <ul>
-                    <li>Hakushi Hasegawa</li>
-                    <li>Liz Lehman</li>
-                    <li>Sawako Kageyama</li>
-                    <li>Eddy Atoms</li>
-                    <li>Ala Flora</li>
-                </ul>
+                <div id="bearhr">
+                    <img id="bearhead" src="images/bearhead.png">
+                </div>
+                <div id="audio2">
+                    <marquee>
+                        ♥︎ Now playing: Serani Poji - ぴぽぴぽ♥︎ 
+                    </marquee>
+                    <img src="images/dance.gif">
+                    <audio controls autoplay loop id="lowaudio">
+                        <source src="audio/Song3.mp3" type="audio/mpeg">
+                    </audio>
+                    <script>
+                        var audio = document.getElementById("lowaudio");
+                        audio.volume = 0.1;
+                    </script>
+                    <div id="warning2">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <p id="volume2">Volume Warning</p>
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                    </div>
+                </div>
             </div>
+        </div>
+        <div id="homebutton">
+            <a href="index.html">
+                <i class="fa-solid fa-star"></i>
+                <p>HOME</p>
+                <i class="fa-solid fa-star"></i>
+            </a>
         </div>
         <hr>
         <p id="bottomtext"> © 2024 Aaron Siers</p>

@@ -10,6 +10,35 @@ body {
 hr {
     border-top: 4px dotted #f56a59;
 }
+/*BEAR BORDER*/
+#bearhead {
+    width: 60vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/*HOME BUTTON*/
+#homebutton a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    background-color: #388df9;
+    color: #ffdd6e;
+    border-radius: 50px;
+    margin: 0px 780px;
+    transition:
+        background-color .5s 
+    ;
+}
+#homebutton i{
+    color: #388df9;
+}
+#homebutton a:hover{
+    background-color: #f56a59;
+    color: #ffdd6e;
+}
 /*MARQUEE*/
 marquee {
     color: #f56a59;
@@ -123,6 +152,15 @@ marquee {
     box-shadow: 5px 5px 5px rgba(239, 125, 125, 0.382);
     transform: translateY(-4px);
 }
+#click {
+    display: flex;
+    align-items: baseline;
+}
+#click i {
+    color: #ffdd6e;
+    font-size: 15px;
+    padding: 0px;
+}
 #bottomtext {
     text-align: center;
 }
@@ -146,6 +184,28 @@ marquee {
     text-align: center;
 }
 #audio img {
+    width: 15vw;
+}
+
+#audio2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#volume2 {
+    font-size: 12px;
+    padding: 10px;
+}
+#warning2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#audio2 img {
     width: 15vw;
 }
 /*CARDS*/
@@ -251,19 +311,17 @@ GALLERY
 /********************
 ABOUT ME
 ********************/
-#description h1 {
+#biotxt h1 {
     color: #388df9;
 }
 #about {
     display: flex;
     background-color: white;
     border: 2px solid #f56a59;
-    margin: 30px;
-    padding: 30px;
-}
-#description {
+    margin: 50px 150px;
+    padding: 30px 0px;
     justify-content: center;
-    text-align: left;
+    align-items: center;
 }
 #title {
     display: flex;
@@ -273,6 +331,17 @@ ABOUT ME
     font-size: 5vw;
     padding-left: 10px;
     color: #f56a59;
+}
+#bio {
+    display: flex;
+    justify-content: space-between;
+}
+#biotxt {
+    padding-left : 50px;
+    padding-right: 250px;
+}
+#me {
+    width: 30vw;
 }
 /********************
 CONTACT
@@ -361,6 +430,9 @@ ANIMATION
     width: 100vw;
     padding: 0px;
 }
+#cats {
+    width: 60vw;
+}
 /********************
 MESSAGE FORM
 ********************/
@@ -402,4 +474,49 @@ input[type=submit]:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+/********************
+GRAPHICS
+********************/
+#graphics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+#graphics a {
+    transition: 
+        transform .5s
+    ;
+}
+#graphics a:hover {
+    transform: translateY(-5px);
+}
+#graphics img {
+    width: 20vw;
+}
+#commissions .commissionsimg {
+    width: 24.4vw;
+}
+/********************
+CLASSWORK - GRAPHICS
+********************/
+#images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.classworkimg {
+    width: 30vw;
+}
+.logosimg {
+    width: 30vw;
+}
+.commissionsimg {
+    width: 30vw;
+}
+.photograph {
+    width: 40vw;
 }

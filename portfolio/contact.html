@@ -33,6 +33,11 @@
             <a href="about.html">ABOUT</a>
             <a href="contact.html">CONTACT</a>
         </div>
+        <div id="spacer">
+            <marquee>
+                ♥︎ Now playing: Hakushi Hasegawa - Departed♥︎ 
+            </marquee>
+        </div>
         <div id="contact-container">
             <img id="pbimg" src="images/pointbear.png">
             <div id="contact">
@@ -56,6 +61,22 @@
                     <p>Aaron Siers</p>
                 </div>
             </div>
+        </div>
+        <div id="audio3">
+            <audio controls autoplay loop id="lowaudio">
+                <source src="audio/Song1.mp3" type="audio/mpeg">
+            </audio>
+            <script>
+                var audio = document.getElementById("lowaudio");
+                audio.volume = 0.1;
+            </script>
+        </div>
+        <div id="homebutton">
+            <a href="index.html">
+                <i class="fa-solid fa-star"></i>
+                <p>HOME</p>
+                <i class="fa-solid fa-star"></i>
+            </a>
         </div>
         <hr>
         <p id="bottomtext"> © 2024 Aaron Siers</p>
