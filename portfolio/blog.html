@@ -35,6 +35,15 @@
             <a href="about.html">ABOUT</a>
             <a href="contact.html">CONTACT</a>
         </div>
+        <div id="audio3">
+            <audio controls autoplay loop id="lowaudio">
+                <source src="audio/Song8.mp3" type="audio/mpeg">
+            </audio>
+            <script>
+                var audio = document.getElementById("lowaudio");
+                audio.volume = 0.1;
+            </script>
+        </div>
         <div id="blog">
             <div class="row">
                 <div class="leftcolumn">
@@ -88,15 +97,6 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div id="audio3">
-                <audio controls autoplay loop id="lowaudio">
-                    <source src="audio/Song8.mp3" type="audio/mpeg">
-                </audio>
-                <script>
-                    var audio = document.getElementById("lowaudio");
-                    audio.volume = 0.1;
-                </script>
             </div>
         </div>
         <hr>
