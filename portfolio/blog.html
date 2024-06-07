@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>blog</title>
+        <link href="css/style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/4189cca588.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="https://shorturl.at/PKdFx">
+    </head>
+    <body>
+        <div id="navbar-top">
+            <a href="index.html">
+                <img 
+                    id="logo"
+                    src="images/as_logo.png"
+                    width="60px"
+                >
+            </a>
+        </div>
+        <div id="navbar">
+            <a href="blog.html">BLOG</a>
+            <div class="dropdown-container">
+                <a href="gallery.html">
+                    GALLERY
+                    <i class="fa-solid fa-sort-down"></i>
+                </a>
+                <div class="dropdown-menu">
+                    <a href="graphics.html">Graphics</a>
+                    <a href="animation.html">Animation</a>
+                    <a href="photography.html">Photography</a>
+                    <a href="webgraphics.html">Website Graphics</a>
+                </div>
+            </div>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+        <div id="blog">
+            <div class="row">
+                <div class="leftcolumn">
+                  <div class="card">
+                    <h2></h2>
+                    <h5>Blog Entry, Jun 7, 2024</h5>
+                    <p><sub>2:30 AM</sub></p>
+                    <div class="blogimg" style="height:200px;">
+                        <img id="cramp" src="images/handcramp.png">
+                    </div>
+                    <p>
+                        Im so worried my hands will give out since I'm on my
+                        computer 24/7 - I've added a few more animated and static graphics to this website, along with music I like : )
+                    </p>
+                  </div>
+                  <div id="bearhr">
+                    <img id="bearhead" src="images/bearhead.png">
+                </div>
+                </div>
+                <div class="rightcolumn">
+                  <div id="blog1" class="card">
+                    <h2>Welcome to my blog</h2>
+                    <div class="blogimg" style="height:100px;">
+                        <img src="">
+                    </div>
+                    <p>I just talk about my day or events here</p>
+                  </div>
+                  <div class="card">
+                    <h3>Popular Post</h3>
+                    <div class="blogimg">
+                        <a href="#blog1">
+                            <img id="popular" src="images/handcramp.png">
+                        </a>
+                    </div>
+                  </div>
+                  <div class="socialcard">
+                    <h3>My Socials</h3>
+                    <div id="socials">
+                        <a href="mailto:siersbear@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://www.instagram.com/AaronSiers_GD">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a 
+                            href="https://www.linkedin.com/in/aaron-siers-4230162b4/"
+                        >
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="audio3">
+                <audio controls autoplay loop id="lowaudio">
+                    <source src="audio/Song8.mp3" type="audio/mpeg">
+                </audio>
+                <script>
+                    var audio = document.getElementById("lowaudio");
+                    audio.volume = 0.1;
+                </script>
+            </div>
+        </div>
+        <hr>
+        <p id="bottomtext"> © 2024 Aaron Siers</p>
+    </body>
+</html>

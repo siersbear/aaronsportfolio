@@ -53,6 +53,13 @@ hr {
 marquee {
     color: #f56a59;
 }
+#walk {
+    padding-left: 90px;
+}
+#bearwalk img{
+    width: 10vw;
+    padding: 0px;
+}
 /*NAVBAR*/
 #logo {
     padding-top: 10px;
@@ -150,6 +157,10 @@ marquee {
     color: #ffdd6e;
 }
 #card1 {
+    background-image: url("../images/boxshadow.png");
+    background-size: 100vw;
+    background-position: bottom;
+    object-fit: fill;
     transition:
         background-color .5s,
         box-shadow .5s,
@@ -460,14 +471,11 @@ ANIMATION
     width: 100vw;
     padding: 0px;
 }
-#cats {
-    width: 30vw;
-}
-#spin {
-    width: 20vw;
-}
 #doodles {
     display: flex;
+}
+#doodles img {
+    width: 25vw;
 }
 /********************
 MESSAGE FORM
@@ -563,12 +571,89 @@ WEBSITE - GRAPHICS
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#webimgs {
+    justify-content: center;
     align-items: center;
 }
 #webimgs img {
     width: 25vw;
 }
+/********************
+BLOG
+********************/
+.leftcolumn {
+    float: left;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+}
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+  
+.blogimg {
+    width: 100%;
+    padding: 0px;
+}
 
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    background-image: url("../images/boxshadow.png");
+    background-size: 85vw;
+    background-position: bottom;
+    object-fit: fill;
+}
+.socialcard {
+    border: 3px solid #f56a59;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3vw;
+}
+#socials a {
+    padding: 0px 10px;
+    color: #388df9;
+    transform: none;
+    transition: 
+        color .3s,
+        transform .3s
+    ;
+}
+#socials a:hover {
+    color: #f56a59;
+    transform: translateY(-4px);
+}
+#cramp {
+    width: 14vw;
+}
+#popular {
+    width: 5vw;
+    object-fit: cover;
+}
 
 
 /********************
