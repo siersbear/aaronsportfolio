@@ -173,6 +173,25 @@ marquee {
     box-shadow: 5px 5px 5px rgba(239, 125, 125, 0.382);
     transform: translateY(-4px);
 }
+#card2 {
+    background-image: url("../images/boxshadow.png");
+    background-size: 100vw;
+    background-position: bottom;
+    object-fit: fill;
+    transition:
+        background-color .5s,
+        box-shadow .5s,
+        transform .3s
+    ;
+}
+#card2:hover {
+    color: #ffdd6e;
+    background-image: url("../images/headeranimation.gif");
+    background-position: center;
+    object-fit: fill;
+    box-shadow: 5px 5px 5px rgba(239, 125, 125, 0.382);
+    transform: translateY(-4px);
+}
 #click {
     display: flex;
     align-items: baseline;
