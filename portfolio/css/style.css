@@ -563,6 +563,24 @@ GRAPHICS
     width: 24.4vw;
 }
 /********************
+ILLUSTRATIONS - GRAPHICS 1136 × 1080
+********************/
+#image-hover {
+    background-image: url("../images/WN2.png");
+    background-size: 33vw;
+    justify-content: center;
+    object-fit: fill;
+    object-position: center;
+    width: 536px;
+    height: 525px;
+    transition:
+        background-image .5s
+    ;
+}
+#image-hover:hover {
+    background-image: url("../images/WN.png");
+}
+/********************
 CLASSWORK - GRAPHICS
 ********************/
 #images {
@@ -599,6 +617,11 @@ WEBSITE - GRAPHICS
 }
 #webimgs img {
     width: 25vw;
+}
+
+#illustrations img{
+    width: 21vw;
+    padding-top: 10px;
 }
 /********************
 BLOG
