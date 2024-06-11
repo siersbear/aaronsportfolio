@@ -564,7 +564,15 @@ PHOTOGRAPHY
     flex: 1;
     object-fit: cover;
 }
-
+#bearheadg {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+#bearheadg img{
+    width: 60vw;
+}
 /********************
 GRAPHICS
 ********************/
@@ -589,6 +597,7 @@ GRAPHICS
 #commissions .commissionsimg {
     width: 24.4vw;
 }
+
 /********************
 ILLUSTRATIONS - GRAPHICS 1136 × 1080
 ********************/
