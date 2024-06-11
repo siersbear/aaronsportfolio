@@ -35,41 +35,47 @@
             <a href="about.html">ABOUT</a>
             <a href="contact.html">CONTACT</a>
         </div>
-        <div id="images">
+        <div id="photos">
             <img id="bearhead" src="images/bearhead.png">
-            <h1>PHOTOGRAPHY</h1>
-            <img 
-                class="photograph"
-                src="images/PhotographyCollage_GDWD103_ASiers_V4.jpg"
-                alt="photo 1"
-            >
-            <img 
-            class="photograph"
-            src="images/MattePainting_GDWD103_ASiers_V4.jpg"
-            alt="Photo 4"
-        >
-            <div id="productphotography">
+            <h3>PHOTOGRAPHY</h3>
+            <div class="horizontal-masonry-gallery">
+                <img src="images/bear3:4.jpg" alt="coffee">
+                <img src="images/bearthrow.jpg" alt="coffee">
                 <img 
-                    class="photograph"
-                    src="images/ProductPhotography_GDWD_ASiers_V2.jpg"
-                    alt="photo 2"
+                    src="images/MattePainting_GDWD103_ASiers_V4.jpg" 
+                    alt="coffee"
                 >
                 <img 
-                    class="photograph"
-                    src="images/ProductPhotography_GDWD_ASiers_V3.jpg"
-                    alt="photo 3"
+                    src="images/PhotographyCollage_GDWD103_ASiers_V4.jpg" 
+                    alt="coffee"
+                >
+                <img src="images/Surreal.jpg" alt="coffee">
+                <img src="images/Conceptual.jpg" alt="coffee">
+                <img 
+                    src="images/ProductPhotography_GDWD_ASiers_V2.jpg" 
+                    alt="coffee"
+                >
+                <img 
+                    src="images/ProductPhotography_GDWD_ASiers_V3.jpg" 
+                    alt="coffee"
                 >
             </div>
-            <img 
-                class="photograph"
-                src="images/Surreal.jpg"
-                alt="Photo 4"
-            >
-            <img 
-                class="photograph"
-                src="images/Conceptual.jpg"
-                alt="Photo 5"
-            >
+        </div>
+        <div id="audio3">
+            <audio controls autoplay loop id="lowaudio">
+                <source src="audio/Song9.mp3" type="audio/mpeg">
+            </audio>
+            <script>
+                var audio = document.getElementById("lowaudio");
+                audio.volume = 0.1;
+            </script>
+        </div>
+        <div id="homebutton">
+            <a href="index.html">
+                <i class="fa-solid fa-star"></i>
+                <p>HOME</p>
+                <i class="fa-solid fa-star"></i>
+            </a>
         </div>
         <hr>
         <p id="bottomtext"> © 2024 Aaron Siers</p>
