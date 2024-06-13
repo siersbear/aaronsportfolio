@@ -611,6 +611,7 @@ ILLUSTRATIONS - GRAPHICS 1136 × 1080
     background-size: 33vw;
     justify-content: center;
     object-fit: fill;
+    background-repeat: no-repeat;
     object-position: center;
     width: 536px;
     height: 525px;
@@ -1347,6 +1348,7 @@ TABLET QUERY
     #image-hover {
         background-image: url("../images/WN2.png");
         background-size: 86vw;
+        background-repeat: no-repeat;
         justify-content: center;
         object-fit: fill;
         object-position: center;
@@ -2094,6 +2096,7 @@ PHONE QUERY
         background-size: 123vw;
         justify-content: center;
         object-fit: fill;
+        background-repeat: no-repeat;
         object-position: center;
         width: 346px;
         height: 405px;
