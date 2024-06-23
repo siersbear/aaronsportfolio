@@ -741,6 +741,12 @@ BLOG
 #blog3 img {
     width: 13vw;
 }
+#blog4 #WIPimg {
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 
 /********************
@@ -1460,6 +1466,12 @@ TABLET QUERY
     }
     #blog3 img {
         width: 30vw;
+    }
+    #blog4 #WIPimg {
+        width: 55vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 
@@ -2224,6 +2236,11 @@ PHONE QUERY
     #blog3 img {
         width: 33vw;
     }
-    
+    #blog4 #WIPimg {
+        width: 50vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     
 }
