@@ -766,9 +766,8 @@ BLOG
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 15vw;
 }
-
-
 /********************
 TABLET QUERY
 ********************/
@@ -1407,6 +1406,9 @@ TABLET QUERY
     }
     #image-hover:hover {
         background-image: url("../images/WN.png");
+    }
+    #fairy {
+        width: 50vw;
     }
     /********************
     CLASSWORK - GRAPHICS
@@ -2183,6 +2185,9 @@ PHONE QUERY
     }
     #image-hover:active {
         background-image: url("../images/WN.png");
+    }
+    #fairy {
+        width: 90vw; 
     }
     /********************
     CLASSWORK - GRAPHICS
