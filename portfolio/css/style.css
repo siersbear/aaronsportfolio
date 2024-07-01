@@ -452,8 +452,8 @@ CONTACT
     font-size: 70px;
     color: #f56a59;
     transition: 
-    color .5s
-;
+        color .5s
+    ;
 }
 .linkedin i{
     padding: 10px;
@@ -474,6 +474,27 @@ CONTACT
 }
 #pbimg {
     width: 40vw;
+}
+.fourthwall {
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+}
+#fw-hover {
+    background-image: url("../images/FW.png");
+    background-size: 5vw;
+    justify-content: center;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    object-position: center;
+    width: 100px;
+    height: 100px;
+    transition:
+        background-image .5s
+    ;
+}
+#fw-hover:hover {
+    background-image: url("../images/FW_hover.png");
 }
 /********************
 ANIMATION
@@ -742,7 +763,6 @@ BLOG
     width: 13vw;
 }
 #blog4 #WIPimg {
-    width: 10vw;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -1219,6 +1239,27 @@ TABLET QUERY
     }
     #pbimg {
         width: 40vw;
+    }
+    .fourthwall {
+        display: flex;
+        padding: 20px;
+        font-size: 30px;
+    }
+    #fw-hover {
+        background-image: url("../images/FW.png");
+        background-size: 13vw;
+        justify-content: center;
+        object-fit: fill;
+        background-repeat: no-repeat;
+        object-position: center;
+        width: 100px;
+        height: 100px;
+        transition:
+            background-image .5s
+        ;
+    }
+    #fw-hover:hover {
+        background-image: url("../images/FW_hover.png");
     }
     /********************
     ANIMATION
@@ -1913,6 +1954,9 @@ PHONE QUERY
         justify-content: center;
         align-items: center;
     }
+    #contact-container p{
+        display: none;
+    }
     #contact {
         justify-content: center;
         align-items: left;
@@ -1971,6 +2015,27 @@ PHONE QUERY
     }
     #pbimg {
         width: 40vw;
+    }
+    .fourthwall {
+        display: flex;
+        padding: 20px;
+        font-size: 15px;
+    }
+    #fw-hover {
+        background-image: url("../images/FW.png");
+        background-size: 13vw;
+        justify-content: center;
+        object-fit: fill;
+        background-repeat: no-repeat;
+        object-position: center;
+        width: 50px;
+        height: 50px;
+        transition:
+            background-image .5s
+        ;
+    }
+    #fw-hover:hover {
+        background-image: url("../images/FW_hover.png");
     }
     /********************
     ANIMATION
