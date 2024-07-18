@@ -625,7 +625,7 @@ GRAPHICS
 }
 
 /********************
-ILLUSTRATIONS - GRAPHICS 1136 × 1080
+ILLUSTRATIONS
 ********************/
 #image-hover {
     background-image: url("../images/WN2.png");
@@ -642,6 +642,22 @@ ILLUSTRATIONS - GRAPHICS 1136 × 1080
 }
 #image-hover:hover {
     background-image: url("../images/WN.png");
+}
+#af {
+    justify-content: center;
+    align-items: center;
+}
+#af #catboy{
+    width: 40vw;
+    justify-content: center;
+}
+#af #catgirl{
+    width: 40vw;
+    justify-content: center;
+}
+#af #creature{
+    width: 40vw;
+    justify-content: center;
 }
 /********************
 CLASSWORK - GRAPHICS
@@ -767,6 +783,12 @@ BLOG
     align-items: center;
     text-align: center;
     width: 15vw;
+}
+#blog5 #selfimg {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 13vw;
 }
 /********************
 TABLET QUERY
@@ -1410,6 +1432,22 @@ TABLET QUERY
     #fairy {
         width: 50vw;
     }
+    #af {
+        justify-content: center;
+        align-items: center;
+    }
+    #af #catboy{
+        width: 50vw;
+        justify-content: center;
+    }
+    #af #catgirl{
+        width: 50vw;
+        justify-content: center;
+    }
+    #af #creature{
+        width: 50vw;
+        justify-content: center;
+    }
     /********************
     CLASSWORK - GRAPHICS
     ********************/
@@ -1515,6 +1553,12 @@ TABLET QUERY
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    #blog5 #selfimg {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 40vw;
     }
 }
 
@@ -2189,6 +2233,22 @@ PHONE QUERY
     #fairy {
         width: 90vw; 
     }
+    #af {
+        justify-content: center;
+        align-items: center;
+    }
+    #af #catboy{
+        width: 40vw;
+        justify-content: center;
+    }
+    #af #catgirl{
+        width: 40vw;
+        justify-content: center;
+    }
+    #af #creature{
+        width: 40vw;
+        justify-content: center;
+    }
     /********************
     CLASSWORK - GRAPHICS
     ********************/
@@ -2312,5 +2372,10 @@ PHONE QUERY
         align-items: center;
         text-align: center;
     }
-    
+    #blog5 #selfimg {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 35vw;
+    }
 }
