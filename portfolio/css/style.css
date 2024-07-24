@@ -790,6 +790,15 @@ BLOG
     text-align: center;
     width: 13vw;
 }
+#blog6 #singimg {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20vw;
+}
+#blog6 p {
+    padding: 13px;
+}
 /********************
 TABLET QUERY
 ********************/
@@ -1559,6 +1568,15 @@ TABLET QUERY
         align-items: center;
         text-align: center;
         width: 40vw;
+    }
+    #blog6 #singimg {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 50vw;
+    }
+    #blog6 p {
+        padding: 5px;
     }
 }
 
@@ -2377,5 +2395,15 @@ PHONE QUERY
         align-items: center;
         text-align: center;
         width: 35vw;
+    }
+    #blog6 #singimg {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 40vw;
+    }
+    #blog6 p {
+        padding: 0px;
+        font-size: 15px;
     }
 }
