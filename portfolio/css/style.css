@@ -628,6 +628,12 @@ GRAPHICS
 /********************
 ILLUSTRATIONS
 ********************/
+#images2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #image-hover {
     background-image: url("../images/WN2.png");
     background-size: 33vw;
@@ -676,7 +682,7 @@ CLASSWORK - GRAPHICS
     align-items: center;
     text-align: center;
 }
-#classtitle img {
+#classtitle {
     justify-content: center;
     align-items: center;
     text-align: center;
