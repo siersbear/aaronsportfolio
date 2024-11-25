@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Internship</title>
+        <link href="css/style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/4189cca588.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="images/ICONLOGO.png">
+    </head>
+    <body>
+        <div id="navbar-top">
+            <a href="index.html">
+                <img 
+                    id="logo"
+                    src="images/as_logo.png"
+                    width="60px"
+                >
+            </a>
+        </div>
+        <div id="navbar">
+            <a href="blog.html">BLOG</a>
+            <div class="dropdown-container">
+                <a href="gallery.html">
+                    GALLERY
+                    <i class="fa-solid fa-sort-down"></i>
+                </a>
+                <div class="dropdown-menu">
+                    <a href="graphics.html">Graphics</a>
+                    <a href="animation.html">Animation</a>
+                    <a href="photography.html">Photography</a>
+                    <a href="webgraphics.html">Website Graphics</a>
+                </div>
+            </div>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+        <div id="photos">
+            <img id="bearhead" src="images/bearhead.png">
+            <h3>INTERNSHIP GRAPHICS</h3>
+            <div class="horizontal-masonry-gallery">
+                <img 
+                    src="images/INTERNSHIP/FLAAPPSTICKER1.png" 
+                    alt="FLAAPP Sticker"
+                >
+                <img 
+                    src="images/INTERNSHIP/FLAAPPSTICKER2.png" 
+                    alt="FLAAPP Sticker"
+                >
+                <img 
+                    src="images/INTERNSHIP/DRAFT1.png" 
+                    alt="birds"
+                >
+                <img 
+                    src="images/INTERNSHIP/DRAFT2.png" 
+                    alt="birds"
+                >
+                <img 
+                    src="images/INTERNSHIP/CROSSWORD_ANSWERS.png" 
+                    alt="crossword">
+                <img 
+                    src="images/INTERNSHIP/DRAFT5.png" 
+                    alt="birds"
+                >
+                <img 
+                    src="images/INTERNSHIP/SB1718Graphic_Draft1.png" 
+                    alt="SB1718"
+                >
+            </div>
+        </div>
+        <div id="audio3">
+            <audio controls autoplay loop id="lowaudio">
+                <source src="audio/Song9.mp3" type="audio/mpeg">
+            </audio>
+            <script>
+                var audio = document.getElementById("lowaudio");
+                audio.volume = 0.1;
+            </script>
+        </div>
+        <div id="buttons">
+            <div id="homebutton">
+                <a href="gallery.html">
+                    <i class="fa-solid fa-star"></i>
+                    <p>BACK</p>
+                    <i class="fa-solid fa-star"></i>
+                </a>
+            </div>
+            <div id="homebutton">
+                <a href="index.html">
+                    <i class="fa-solid fa-star"></i>
+                    <p>HOME</p>
+                    <i class="fa-solid fa-star"></i>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <p id="bottomtext"> © 2024 Aaron Siers</p>
+    </body>
+</html>

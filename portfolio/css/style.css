@@ -524,6 +524,26 @@ ANIMATION
 #doodles img {
     width: 25vw;
 }
+#crosswords {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#crosswords img {
+    width: 32vw;
+}
+#DWC {
+    display: flex;
+}
+#DWC #WordCloud {
+    width: 25vw;
+}
+#misc {
+    display: flex;
+}
+#misc #etc {
+    width: 25vw;
+}
 /********************
 MESSAGE FORM
 ********************/
@@ -821,9 +841,19 @@ BLOG
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 15vw;
+    width: 13vw;
 }
 #blog6 p {
+    padding: 13px;
+}
+#blog7 #craneimg {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15vw;
+    background-color: #f56a59;
+}
+#blog7 p {
     padding: 13px;
 }
 /********************
