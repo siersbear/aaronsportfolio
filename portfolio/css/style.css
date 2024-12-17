@@ -690,6 +690,16 @@ ILLUSTRATIONS
     width: 40vw;
     justify-content: center;
 }
+#wow {
+    width: 50vw;
+}
+#personaartwork {
+    display: flex;
+    flex-direction: row;
+}
+#personaartwork img {
+    width: 35vw;
+}
 /********************
 CLASSWORK - GRAPHICS
 ********************/
@@ -763,7 +773,6 @@ BLOG
     width: 25%;
     padding-left: 20px;
 }
-  
 .blogimg {
     width: 100%;
     padding: 0px;
