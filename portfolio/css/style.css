@@ -865,6 +865,15 @@ BLOG
 #blog7 p {
     padding: 13px;
 }
+#blog8 #bear {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25vw;
+}
+#blog8 p {
+    padding: 13px;
+}
 /********************
 TABLET QUERY
 ********************/
